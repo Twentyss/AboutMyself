@@ -17,9 +17,5 @@ class MoreInfoViewController: UIViewController {
         navigationItem.title = author.firstname + " " + author.surname
         imageView.image = UIImage(named: "myPhoto")
     }
-    
-
-
-
 
 }

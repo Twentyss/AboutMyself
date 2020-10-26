@@ -8,8 +8,6 @@
 import UIKit
 
 
-
-
 class ViewController: UIViewController {
 
     let user = User()
