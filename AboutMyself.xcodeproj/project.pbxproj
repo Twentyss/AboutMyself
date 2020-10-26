@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092A8FF12545D6C80004105A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A8FF02545D6C80004105A /* User.swift */; };
+		0979F75C25463CBD0000F141 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979F75B25463CBD0000F141 /* Author.swift */; };
+		0979F76025464DF90000F141 /* AboutMyselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979F75F25464DF90000F141 /* AboutMyselfViewController.swift */; };
+		0979F76325464E550000F141 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979F76225464E550000F141 /* MoreInfoViewController.swift */; };
 		099398DA2543926E00A5D5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099398D92543926E00A5D5E8 /* AppDelegate.swift */; };
 		099398DC2543926E00A5D5E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099398DB2543926E00A5D5E8 /* SceneDelegate.swift */; };
 		099398DE2543926E00A5D5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099398DD2543926E00A5D5E8 /* ViewController.swift */; };
 		099398E12543926E00A5D5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099398DF2543926E00A5D5E8 /* Main.storyboard */; };
 		099398E32543926E00A5D5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099398E22543926E00A5D5E8 /* Assets.xcassets */; };
 		099398E62543926E00A5D5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099398E42543926E00A5D5E8 /* LaunchScreen.storyboard */; };
+		099398F02544A82900A5D5E8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099398EF2544A82900A5D5E8 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092A8FF02545D6C80004105A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0979F75B25463CBD0000F141 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		0979F75F25464DF90000F141 /* AboutMyselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyselfViewController.swift; sourceTree = "<group>"; };
+		0979F76225464E550000F141 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 		099398D62543926E00A5D5E8 /* AboutMyself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMyself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099398D92543926E00A5D5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		099398DB2543926E00A5D5E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		099398E22543926E00A5D5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099398E52543926E00A5D5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099398E72543926E00A5D5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099398EF2544A82900A5D5E8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0979F754254623160000F141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				099398E72543926E00A5D5E8 /* Info.plist */,
+				099398DB2543926E00A5D5E8 /* SceneDelegate.swift */,
+				099398D92543926E00A5D5E8 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0979F755254623380000F141 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				099398DF2543926E00A5D5E8 /* Main.storyboard */,
+				099398E42543926E00A5D5E8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0979F756254623570000F141 /* View Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				099398EF2544A82900A5D5E8 /* WelcomeViewController.swift */,
+				099398DD2543926E00A5D5E8 /* ViewController.swift */,
+				0979F75F25464DF90000F141 /* AboutMyselfViewController.swift */,
+				0979F76225464E550000F141 /* MoreInfoViewController.swift */,
+			);
+			path = "View Contollers";
+			sourceTree = "<group>";
+		};
+		0979F7572546237B0000F141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				092A8FF02545D6C80004105A /* User.swift */,
+				0979F75B25463CBD0000F141 /* Author.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		099398CD2543926E00A5D5E8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +105,21 @@
 		099398D82543926E00A5D5E8 /* AboutMyself */ = {
 			isa = PBXGroup;
 			children = (
-				099398D92543926E00A5D5E8 /* AppDelegate.swift */,
-				099398DB2543926E00A5D5E8 /* SceneDelegate.swift */,
-				099398DD2543926E00A5D5E8 /* ViewController.swift */,
-				099398DF2543926E00A5D5E8 /* Main.storyboard */,
-				099398E22543926E00A5D5E8 /* Assets.xcassets */,
-				099398E42543926E00A5D5E8 /* LaunchScreen.storyboard */,
-				099398E72543926E00A5D5E8 /* Info.plist */,
+				0979F7572546237B0000F141 /* Models */,
+				0979F756254623570000F141 /* View Contollers */,
+				0979F755254623380000F141 /* Storyboards */,
+				0979F754254623160000F141 /* Supporting Files */,
+				09E789442546BBCE0017D1EA /* Resources */,
 			);
 			path = AboutMyself;
+			sourceTree = "<group>";
+		};
+		09E789442546BBCE0017D1EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				099398E22543926E00A5D5E8 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0979F76025464DF90000F141 /* AboutMyselfViewController.swift in Sources */,
+				0979F75C25463CBD0000F141 /* Author.swift in Sources */,
+				092A8FF12545D6C80004105A /* User.swift in Sources */,
 				099398DE2543926E00A5D5E8 /* ViewController.swift in Sources */,
+				099398F02544A82900A5D5E8 /* WelcomeViewController.swift in Sources */,
+				0979F76325464E550000F141 /* MoreInfoViewController.swift in Sources */,
 				099398DA2543926E00A5D5E8 /* AppDelegate.swift in Sources */,
 				099398DC2543926E00A5D5E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55DF93WWR;
-				INFOPLIST_FILE = AboutMyself/Info.plist;
+				INFOPLIST_FILE = "AboutMyself/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-gmail.pershin.ilya31.AboutMyself";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55DF93WWR;
-				INFOPLIST_FILE = AboutMyself/Info.plist;
+				INFOPLIST_FILE = "AboutMyself/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-gmail.pershin.ilya31.AboutMyself";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
